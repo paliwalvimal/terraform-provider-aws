@@ -57,6 +57,7 @@ theme:
   features:
     - navigation.instant
     - content.tabs.link
+    - content.code.copy
 
 plugins:
   - search:
@@ -66,6 +67,8 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.inlinehilite
   - toc:
       permalink: "#"
